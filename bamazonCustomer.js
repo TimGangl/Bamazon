@@ -80,7 +80,7 @@ function reStart() {
     {
       name: "keepShopping",
       type: "rawlist",
-      message: "Would you like to buy more?",
+      message: "Would you like to buy more?".green,
       choices: ["YES", "NO"]
     }
   ]).then(function (answer) {
